@@ -1,0 +1,4 @@
+nbformat
+nbclient
+ipykernel
+# JupyterLab or Notebook is optional for interactive use.

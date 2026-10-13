@@ -1,0 +1,136 @@
+{
+  "all_descriptor_engine_comparisons_pass": false,
+  "notebook_unchanged": true,
+  "total_query_points": 12240,
+  "descriptors_per_point": 20,
+  "tolerance": {
+    "rtol": 1e-10,
+    "atol": 1e-12
+  },
+  "versions": {
+    "numpy": "2.4.3",
+    "scipy": "1.17.1",
+    "pandas": "2.3.3",
+    "ase": "3.27.0",
+    "scikit-learn": "1.8.0",
+    "pydantic": "2.13.4",
+    "joblib": "1.5.3",
+    "matplotlib": "3.10.8"
+  },
+  "baseline_contact_generator_status": "failed: missing Grid.local_blocks; descriptor engine evaluated on fixed legacy-mode coordinates",
+  "baseline_optimized_import_status": "native import fails with current Pydantic2; compatibility namespace used",
+  "fixed_import_status": "native",
+  "historical_outputs_status": "none stored in referenced notebook",
+  "summary": [
+    {
+      "surface": "Pt111",
+      "points": 3240,
+      "features": 20,
+      "baseline_vs_fixed_max_abs": 1.557087792036782e-14,
+      "optimized_vs_fixed_max_abs": 8.881784197001252e-16,
+      "baseline_allclose": true,
+      "optimized_allclose": true
+    },
+    {
+      "surface": "Pt100",
+      "points": 3600,
+      "features": 20,
+      "baseline_vs_fixed_max_abs": 4.440892098500626e-15,
+      "optimized_vs_fixed_max_abs": 6.661338147750939e-16,
+      "baseline_allclose": true,
+      "optimized_allclose": true
+    },
+    {
+      "surface": "Pt110",
+      "points": 5400,
+      "features": 20,
+      "baseline_vs_fixed_max_abs": 1.8423605555262235e-05,
+      "optimized_vs_fixed_max_abs": 2.220446049250313e-16,
+      "baseline_allclose": false,
+      "optimized_allclose": true
+    }
+  ],
+  "plane_comparison": [
+    {
+      "surface": "Pt111",
+      "notebook_z": 15.82080185589363,
+      "example_z": 16.002650153087806,
+      "height_change_A": 0.18184829719417728,
+      "same_xy": true,
+      "plane_change_descriptor_max_abs": 0.4842467911639212
+    },
+    {
+      "surface": "Pt100",
+      "notebook_z": 15.428,
+      "example_z": 15.428,
+      "height_change_A": 0.0,
+      "same_xy": true,
+      "plane_change_descriptor_max_abs": 0.0
+    },
+    {
+      "surface": "Pt110",
+      "notebook_z": 14.947616470925997,
+      "example_z": 14.218464447953998,
+      "height_change_A": -0.7291520229719985,
+      "same_xy": true,
+      "plane_change_descriptor_max_abs": 0.8044074352846653
+    }
+  ],
+  "cutoff_diagnosis": {
+    "near_cutoff_pairs": 64,
+    "affected_query_points": 48,
+    "distances_A": [
+      4.497852771348471,
+      4.497852771348474
+    ],
+    "fc_range": [
+      5.617864140550211e-07,
+      5.617864140550211e-07
+    ],
+    "observed_max_abs": 1.8423605555262235e-05,
+    "predicted_max_abs": 1.8423605554680018e-05,
+    "max_unexplained_abs": 1.4016565685892601e-15,
+    "cutoff_difference_explains_delta": true,
+    "baseline_radial_rule": "fc > 1e-6",
+    "vectorized_radial_rule": "all positive supported fc contributions; no 1e-6 discard",
+    "note": "The 1e-8 in_cut mask belongs to angular code; it is not the radial batch criterion.",
+    "clustering_effect_controls": [
+      {
+        "method": "standardized_kmeans",
+        "k": 2,
+        "seed": 42,
+        "ARI": 1.0
+      },
+      {
+        "method": "raw_spectral",
+        "k": 2,
+        "seed": 42,
+        "ARI": 1.0
+      },
+      {
+        "method": "standardized_kmeans",
+        "k": 4,
+        "seed": 42,
+        "ARI": 1.0
+      },
+      {
+        "method": "raw_spectral",
+        "k": 4,
+        "seed": 42,
+        "ARI": 1.0
+      },
+      {
+        "method": "standardized_kmeans",
+        "k": 10,
+        "seed": 42,
+        "ARI": 1.0
+      },
+      {
+        "method": "raw_spectral",
+        "k": 10,
+        "seed": 42,
+        "ARI": 1.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "site_counts": {
+    "bridge": 48,
+    "atop": 16,
+    "hcp": 16,
+    "fcc": 16
+  },
+  "within_site_max_standardized_distance": {
+    "atop": 5.835507957849773e-14,
+    "bridge": 7.89714085476862e-14,
+    "hcp": 6.592168328035442e-14,
+    "fcc": 7.493143915873005e-14
+  },
+  "translation_max_abs": 1.5543122344752192e-15,
+  "translation_allclose": true,
+  "atomic_noise_std_A": 0.01,
+  "query_shift_A": [
+    0.02,
+    0.02,
+    0
+  ],
+  "original_grid_max_anchor_offset_A": 0.1288782881975249,
+  "notes": "Site tests apply only to ideal Pt111. Fixed geometry, probe height and radius4.5; not adsorption-energy validation."
+}

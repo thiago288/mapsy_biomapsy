@@ -1,0 +1,98 @@
+{
+  "title": "Classical Pt(110)",
+  "points": 5400,
+  "features": [
+    "ACSF_RS_r4.5_000",
+    "ACSF_RS_r4.5_001",
+    "ACSF_RS_r4.5_002",
+    "ACSF_RS_r4.5_003",
+    "ACSF_RS_r4.5_004",
+    "ACSF_RS_r4.5_005",
+    "ACSF_RS_r4.5_006",
+    "ACSF_RS_r4.5_007",
+    "ACSF_RS_r4.5_008",
+    "ACSF_RS_r4.5_009",
+    "ACSF_AS_r4.5_000",
+    "ACSF_AS_r4.5_001",
+    "ACSF_AS_r4.5_002",
+    "ACSF_AS_r4.5_003",
+    "ACSF_AS_r4.5_004",
+    "ACSF_AS_r4.5_005",
+    "ACSF_AS_r4.5_006",
+    "ACSF_AS_r4.5_007",
+    "ACSF_AS_r4.5_008",
+    "ACSF_AS_r4.5_009"
+  ],
+  "clustering_method": "spectral",
+  "clustering_space": "raw",
+  "pca_space": "standardized",
+  "cluster_choices": {
+    "best_silhouette": {
+      "nclusters": 3,
+      "random_state": 42,
+      "median_silhouette": 0.46930072790505756,
+      "median_db": 0.7891107523082379,
+      "silhouette_this_seed": 0.46930072790505756,
+      "db_this_seed": 0.7891107523082379,
+      "cluster_sizes": [
+        1720,
+        1696,
+        1984
+      ]
+    },
+    "best_davies_bouldin": {
+      "nclusters": 4,
+      "random_state": 42,
+      "median_silhouette": 0.45239909728056266,
+      "median_db": 0.7286085264447184,
+      "silhouette_this_seed": 0.45239909728056266,
+      "db_this_seed": 0.7286085264447184,
+      "cluster_sizes": [
+        2064,
+        1256,
+        640,
+        1440
+      ]
+    },
+    "comparison": {
+      "nclusters": 4,
+      "random_state": 42,
+      "median_silhouette": 0.45239909728056266,
+      "median_db": 0.7286085264447184,
+      "silhouette_this_seed": 0.45239909728056266,
+      "db_this_seed": 0.7286085264447184,
+      "cluster_sizes": [
+        2064,
+        1256,
+        640,
+        1440
+      ]
+    }
+  },
+  "selection_rule": "Maximum median silhouette / minimum median DB across seeds; representative plotted seed is the first seed",
+  "screening_ks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "screening_seeds": [
+    42,
+    371
+  ],
+  "silhouette_points": 5400,
+  "silhouette_sampling": "all rows",
+  "db_points": 5400,
+  "pca_pair_display_points": 5400,
+  "protein_projected_front_points": null,
+  "physical_validation": "Cluster counts and assignments require validation for the intended scientific application"
+}

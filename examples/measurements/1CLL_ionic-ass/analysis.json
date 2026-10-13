@@ -1,0 +1,89 @@
+{
+  "title": "1CLL \u2014 holo-derived (calcium-bound source; ions omitted) \u2014 ionic-ass",
+  "points": 32819,
+  "features": [
+    "ACSF_RS_r10.0_000",
+    "ACSF_RS_r10.0_001",
+    "ACSF_RS_r10.0_002",
+    "ACSF_RS_r10.0_003",
+    "ACSF_RS_r10.0_004",
+    "ACSF_RS_r10.0_005",
+    "ACSF_RS_r10.0_006",
+    "ACSF_RS_r10.0_007",
+    "ACSF_RS_r10.0_008",
+    "ACSF_RS_r10.0_009",
+    "ACSF_RS_r10.0_010",
+    "ACSF_RS_r10.0_011",
+    "ACSF_RC_r10.0_000",
+    "ACSF_RC_r10.0_001",
+    "ACSF_RC_r10.0_002",
+    "ACSF_RC_r10.0_003",
+    "ACSF_RC_r10.0_004",
+    "ACSF_RC_r10.0_005",
+    "ACSF_RC_r10.0_006",
+    "ACSF_RC_r10.0_007",
+    "ACSF_RC_r10.0_008",
+    "ACSF_RC_r10.0_009",
+    "ACSF_RC_r10.0_010",
+    "ACSF_RC_r10.0_011",
+    "electrostatic",
+    "hydrophobicity"
+  ],
+  "clustering_method": "kmeans",
+  "clustering_space": "standardized",
+  "pca_space": "standardized",
+  "cluster_choices": {
+    "best_silhouette": {
+      "nclusters": 3,
+      "random_state": 42,
+      "median_silhouette": 0.19515030310619136,
+      "median_db": 1.7234599873210468,
+      "silhouette_this_seed": 0.195136079116338,
+      "db_this_seed": 1.723596040266779,
+      "cluster_sizes": [
+        10156,
+        14361,
+        8302
+      ]
+    },
+    "best_davies_bouldin": {
+      "nclusters": 3,
+      "random_state": 42,
+      "median_silhouette": 0.19515030310619136,
+      "median_db": 1.7234599873210468,
+      "silhouette_this_seed": 0.195136079116338,
+      "db_this_seed": 1.723596040266779,
+      "cluster_sizes": [
+        10156,
+        14361,
+        8302
+      ]
+    }
+  },
+  "selection_rule": "Maximum median silhouette / minimum median DB across seeds; representative plotted seed is the first seed",
+  "screening_ks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "screening_seeds": [
+    42,
+    371
+  ],
+  "silhouette_points": 2000,
+  "silhouette_sampling": "2000 uniformly selected rows, seed 42",
+  "db_points": 32819,
+  "pca_pair_display_points": 12000,
+  "protein_projected_front_points": 3802,
+  "physical_validation": "Cluster counts and assignments require validation for the intended scientific application"
+}

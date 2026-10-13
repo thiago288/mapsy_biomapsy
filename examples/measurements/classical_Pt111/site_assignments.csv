@@ -1,0 +1,4 @@
+partition,site_discrimination,site_equivalence
+Cluster_best_silhouette,0.5,1.0
+Cluster_best_davies_bouldin,0.5,1.0
+Cluster_comparison,1.0,1.0

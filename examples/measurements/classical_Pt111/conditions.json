@@ -1,0 +1,17 @@
+{
+  "site_counts": {
+    "bridge": 48,
+    "atop": 16,
+    "hcp": 16,
+    "fcc": 16
+  },
+  "within_site_max_standardized_distance": {
+    "atop": 3.39938614831506e-14,
+    "bridge": 4.855590307063068e-14,
+    "hcp": 3.840954506733623e-14,
+    "fcc": 5.972329161065838e-14
+  },
+  "max_grid_offset_A": 0.12887828819752492,
+  "probe_z": 15.82080185589363,
+  "scope": "Ideal Pt111 fixture, radius4.5. Descriptors at exact sites; cluster assignments at nearest grid points, with offsets recorded."
+}

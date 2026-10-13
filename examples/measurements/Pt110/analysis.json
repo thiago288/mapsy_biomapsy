@@ -1,0 +1,87 @@
+{
+  "title": "Pt(110)",
+  "points": 5400,
+  "features": [
+    "ACSF_RS_r4.5_000",
+    "ACSF_RS_r4.5_001",
+    "ACSF_RS_r4.5_002",
+    "ACSF_RS_r4.5_003",
+    "ACSF_RS_r4.5_004",
+    "ACSF_RS_r4.5_005",
+    "ACSF_RS_r4.5_006",
+    "ACSF_RS_r4.5_007",
+    "ACSF_RS_r4.5_008",
+    "ACSF_RS_r4.5_009",
+    "ACSF_AS_r4.5_000",
+    "ACSF_AS_r4.5_001",
+    "ACSF_AS_r4.5_002",
+    "ACSF_AS_r4.5_003",
+    "ACSF_AS_r4.5_004",
+    "ACSF_AS_r4.5_005",
+    "ACSF_AS_r4.5_006",
+    "ACSF_AS_r4.5_007",
+    "ACSF_AS_r4.5_008",
+    "ACSF_AS_r4.5_009"
+  ],
+  "clustering_method": "spectral",
+  "clustering_space": "raw",
+  "pca_space": "standardized",
+  "cluster_choices": {
+    "best_silhouette": {
+      "nclusters": 3,
+      "random_state": 42,
+      "median_silhouette": 0.44365355146708874,
+      "median_db": 0.8905332374169186,
+      "silhouette_this_seed": 0.44365355146708874,
+      "db_this_seed": 0.8905332374169186,
+      "cluster_sizes": [
+        1792,
+        1800,
+        1808
+      ]
+    },
+    "best_davies_bouldin": {
+      "nclusters": 7,
+      "random_state": 42,
+      "median_silhouette": 0.3850196966901923,
+      "median_db": 0.7869481986818457,
+      "silhouette_this_seed": 0.38665818033183774,
+      "db_this_seed": 0.7858110993586828,
+      "cluster_sizes": [
+        1056,
+        568,
+        816,
+        512,
+        928,
+        512,
+        1008
+      ]
+    }
+  },
+  "selection_rule": "Maximum median silhouette / minimum median DB across seeds; representative plotted seed is the first seed",
+  "screening_ks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "screening_seeds": [
+    42,
+    371
+  ],
+  "silhouette_points": 5400,
+  "silhouette_sampling": "all rows",
+  "db_points": 5400,
+  "pca_pair_display_points": 5400,
+  "protein_projected_front_points": null,
+  "physical_validation": "Cluster counts and assignments require validation for the intended scientific application"
+}

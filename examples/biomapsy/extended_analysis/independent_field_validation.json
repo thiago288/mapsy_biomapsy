@@ -1,0 +1,16 @@
+{
+  "apo": {
+    "points_tested": 512,
+    "max_electrostatic_abs_difference": 1.3322676295501878e-15,
+    "max_hydrophobicity_abs_difference": 1.7763568394002505e-15,
+    "atom_property_alignment": "Exact PDB record order and coordinates checked against ASE, model 0",
+    "atom_records": 1166
+  },
+  "holo": {
+    "points_tested": 512,
+    "max_electrostatic_abs_difference": 1.1102230246251565e-15,
+    "max_hydrophobicity_abs_difference": 2.220446049250313e-15,
+    "atom_property_alignment": "Exact PDB record order and coordinates checked against ASE, model 0",
+    "atom_records": 1133
+  }
+}

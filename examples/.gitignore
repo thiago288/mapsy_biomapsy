@@ -1,0 +1,13 @@
+results/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Publish curated figures even when a parent repository ignores PNG files.
+!*.png
+
+# Include one verified k=32 run; keep other generated results private.
+!results/
+results/*
+!results/Ptdefects_resolution_final_20261012/
+!results/Ptdefects_resolution_final_20261012/**

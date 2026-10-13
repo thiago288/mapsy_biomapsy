@@ -1,0 +1,21 @@
+{
+  "python": "3.12.3",
+  "packages": {
+    "numpy": "2.4.3",
+    "scipy": "1.17.1",
+    "pandas": "2.3.3",
+    "ase": "3.27.0",
+    "scikit-learn": "1.8.0",
+    "pydantic": "2.13.4",
+    "matplotlib": "3.10.8",
+    "biopython": "1.86",
+    "plotly": "6.6.0",
+    "networkx": "3.6.1",
+    "umap-learn": "0.5.11",
+    "hdbscan": "0.8.41",
+    "pyarrow": "23.0.1",
+    "nbclient": "0.10.4",
+    "nbformat": "5.10.4",
+    "ipykernel": "7.2.0"
+  }
+}

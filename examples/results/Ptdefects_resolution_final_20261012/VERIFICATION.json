@@ -1,0 +1,40 @@
+{
+  "final_portable_script_returncode": 0,
+  "final_selected_k": 32,
+  "final_tables_match_previous_calculation": [
+    "resolution_trials.csv",
+    "resolution_summary.csv",
+    "regional_retention.csv",
+    "channel_retention.csv",
+    "holdout_checks.csv"
+  ],
+  "final_plot_labels_match": true,
+  "example_unit_tests": {
+    "run": 9,
+    "passed": 9
+  },
+  "current_source_descriptor_subset": {
+    "fresh_descriptor_points": 256,
+    "fresh_descriptor_max_abs": 8.171241461241152e-14,
+    "fresh_descriptor_allclose": true,
+    "exact_site_counts": {
+      "bridge": 739,
+      "hcp": 252,
+      "fcc": 252,
+      "atop": 232
+    },
+    "within_site_max_standardized_distance": {
+      "atop": 1.203445469879841e-13,
+      "bridge": 7.288790938102239e-14,
+      "fcc": 7.072081758024189e-14,
+      "hcp": 6.595159053429813e-14
+    },
+    "scope": "Exact high-symmetry terrace coordinates, beyond all O and vacancy cutoff spheres; no nearest-grid approximation"
+  },
+  "public_figures": [
+    "examples/preview/Ptdefects/resolution_comparison.png",
+    "examples/preview/Ptdefects/defect_zoom.png",
+    "examples/preview/Ptdefects/resolution_curves.png",
+    "examples/preview/Ptdefects/regional_fidelity.png"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "1CLL": {
+    "source_accession": "1CLL",
+    "source_url": "https://www.rcsb.org/structure/1CLL",
+    "source_doi": "https://doi.org/10.2210/pdb1CLL/pdb",
+    "preparation": "Previously validated ProteinOnly Bio.PDB selection: standard residues (residue.id[0] == space), element present and not H. No HETATM ions/waters/ligands. Original alternate conformations retained. Read model index 0 with ASE.",
+    "sha256": "e3ab2af826099fff8ec82b0c18d579dcc299c90063a0344c2cd56c078851d7bd",
+    "source_state": "holo / calcium-bound; bundled calculation protein-only, ions removed"
+  },
+  "1CFD": {
+    "source_accession": "1CFD",
+    "source_url": "https://www.rcsb.org/structure/1CFD",
+    "source_doi": "https://doi.org/10.2210/pdb1CFD/pdb",
+    "preparation": "Previously validated ProteinOnly Bio.PDB selection: standard residues (residue.id[0] == space), element present and not H. No HETATM ions/waters/ligands. Original alternate conformations retained. Read model index 0 with ASE.",
+    "sha256": "274a8e1b9abbdfea31a397b1f1e14279d0c9400488233221c9e6068c3ae7895b",
+    "source_state": "apo / calcium-free"
+  }
+}

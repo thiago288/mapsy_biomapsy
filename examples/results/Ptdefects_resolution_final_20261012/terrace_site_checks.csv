@@ -1,0 +1,4 @@
+k,distinct_modal_site_labels,site_discrimination,within_family_equivalence,modal_labels
+2,1,0.25,1.0,"{""atop"": 0, ""bridge"": 0, ""fcc"": 0, ""hcp"": 0}"
+10,2,0.5,1.0,"{""atop"": 9, ""bridge"": 0, ""fcc"": 0, ""hcp"": 0}"
+32,3,0.75,1.0,"{""atop"": 0, ""bridge"": 30, ""fcc"": 3, ""hcp"": 3}"

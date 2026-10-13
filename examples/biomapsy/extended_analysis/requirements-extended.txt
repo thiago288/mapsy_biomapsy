@@ -1,0 +1,8 @@
+# Optional dependencies used by the fully executed extended notebook.
+# Install the MapSy package and notebook tooling separately.
+biopython
+plotly
+networkx
+umap-learn
+hdbscan
+pyarrow

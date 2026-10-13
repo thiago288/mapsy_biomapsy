@@ -1,0 +1,426 @@
+{
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Linux-7.0.0-30-generic-x86_64-with-glibc2.39",
+    "versions": {
+      "numpy": "2.4.3",
+      "scipy": "1.17.1",
+      "pandas": "2.3.3",
+      "ase": "3.27.0",
+      "scikit-learn": "1.8.0",
+      "pydantic": "2.13.4",
+      "matplotlib": "3.10.8",
+      "cupy-cuda12x": "14.0.1"
+    },
+    "thread_environment": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    }
+  },
+  "gpu": {
+    "available": true,
+    "device": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "cupy": "14.0.1"
+  },
+  "conditions": {
+    "repeats": 3,
+    "warmups": 1,
+    "seed": 42,
+    "rtol": 1e-10,
+    "atol": 1e-12,
+    "timing": "CUDA synchronized wall time; descriptor computation, transfers and DataFrame included; contact construction, model setup and plotting excluded",
+    "cpu": "BioMapSy uses KD-tree; Maps uses vectorized dense batches",
+    "points": "Explicit uniformly sampled contact positions, identical for both backends",
+    "descriptor_set": "radial",
+    "angular": "Mixed descriptors may execute angular work on CPU; radial-only performance does not predict mixed performance"
+  },
+  "cases": [
+    {
+      "case": "1CLL_tan",
+      "kind": "protein",
+      "descriptor_set": "radial",
+      "points": 2048,
+      "total_contact_points": 52517,
+      "features": 24,
+      "radius_angstrom": 10,
+      "orders": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "structural": true,
+      "compositional": true,
+      "batch_size": 256,
+      "contact_and_setup_seconds": 0.6626244249637239,
+      "cpu_seconds": [
+        0.06501886894693598,
+        0.0647595509653911,
+        0.064357494993601
+      ],
+      "cpu_median": 0.0647595509653911,
+      "warnings": [],
+      "metadata": {
+        "source_state": "holo-derived (calcium-bound source; ions omitted)",
+        "pdb_accession": "1CLL",
+        "input_name": "1CLL_protein.pdb",
+        "atoms": 1133,
+        "pbc": [
+          false,
+          false,
+          false
+        ],
+        "contact_mode": "tan",
+        "contact_parameters": {
+          "grid_resolution": 0.8,
+          "padding": 10,
+          "distance": 3.5,
+          "spread": 0.5,
+          "threshold": 0.05,
+          "threshold_is_absolute": false
+        },
+        "points_before_main_region": 52601,
+        "regions_before_main_region": 68,
+        "points_after_main_region": 52517,
+        "contact_seconds": 0.6475142490235157,
+        "coordinates": "Original PDB coordinates; no periodic wrapping"
+      },
+      "gpu_status": "verified",
+      "actual_gpu_backend": "gpu",
+      "gpu_seconds": [
+        0.014156872988678515,
+        0.014092366967815906,
+        0.014151747978758067
+      ],
+      "gpu_median": 0.014151747978758067,
+      "max_abs_difference": 2.1316282072803006e-14,
+      "numerically_equal": true,
+      "cpu_over_gpu": 4.576081418535429,
+      "common_pca_max_abs_difference": 3.552713678800501e-15,
+      "cpu_gpu_kmeans_ARI": 1.0
+    },
+    {
+      "case": "1CLL_ionic-ass",
+      "kind": "protein",
+      "descriptor_set": "radial",
+      "points": 2048,
+      "total_contact_points": 32819,
+      "features": 24,
+      "radius_angstrom": 10,
+      "orders": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "structural": true,
+      "compositional": true,
+      "batch_size": 256,
+      "contact_and_setup_seconds": 0.6589870720054023,
+      "cpu_seconds": [
+        0.07818194100400433,
+        0.07485137996263802,
+        0.07444937399122864
+      ],
+      "cpu_median": 0.07485137996263802,
+      "warnings": [],
+      "metadata": {
+        "source_state": "holo-derived (calcium-bound source; ions omitted)",
+        "pdb_accession": "1CLL",
+        "input_name": "1CLL_protein.pdb",
+        "atoms": 1133,
+        "pbc": [
+          false,
+          false,
+          false
+        ],
+        "contact_mode": "ionic-ass",
+        "contact_parameters": {
+          "cutoff": 7,
+          "alpha": 0.8,
+          "spread": 0.5,
+          "threshold": 0.7,
+          "threshold_is_absolute": true
+        },
+        "points_before_main_region": 32984,
+        "regions_before_main_region": 101,
+        "points_after_main_region": 32819,
+        "contact_seconds": 0.6503706040093675,
+        "coordinates": "Original PDB coordinates; no periodic wrapping"
+      },
+      "gpu_status": "verified",
+      "actual_gpu_backend": "gpu",
+      "gpu_seconds": [
+        0.01678629801608622,
+        0.016782586986664683,
+        0.01708162802970037
+      ],
+      "gpu_median": 0.01678629801608622,
+      "max_abs_difference": 2.842170943040401e-14,
+      "numerically_equal": true,
+      "cpu_over_gpu": 4.459076080438244,
+      "common_pca_max_abs_difference": 2.6645352591003757e-15,
+      "cpu_gpu_kmeans_ARI": 1.0
+    },
+    {
+      "case": "1CFD_tan",
+      "kind": "protein",
+      "descriptor_set": "radial",
+      "points": 2048,
+      "total_contact_points": 53986,
+      "features": 24,
+      "radius_angstrom": 10,
+      "orders": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "structural": true,
+      "compositional": true,
+      "batch_size": 256,
+      "contact_and_setup_seconds": 0.6099054969963618,
+      "cpu_seconds": [
+        0.0597946880152449,
+        0.058414325991179794,
+        0.058823940984439105
+      ],
+      "cpu_median": 0.058823940984439105,
+      "warnings": [],
+      "metadata": {
+        "source_state": "apo (calcium-free source)",
+        "pdb_accession": "1CFD",
+        "input_name": "1CFD_protein.pdb",
+        "atoms": 1166,
+        "pbc": [
+          false,
+          false,
+          false
+        ],
+        "contact_mode": "tan",
+        "contact_parameters": {
+          "grid_resolution": 0.8,
+          "padding": 10,
+          "distance": 3.5,
+          "spread": 0.5,
+          "threshold": 0.05,
+          "threshold_is_absolute": false
+        },
+        "points_before_main_region": 54107,
+        "regions_before_main_region": 91,
+        "points_after_main_region": 53986,
+        "contact_seconds": 0.6013546740286984,
+        "coordinates": "Original PDB coordinates; no periodic wrapping"
+      },
+      "gpu_status": "verified",
+      "actual_gpu_backend": "gpu",
+      "gpu_seconds": [
+        0.016918223991524428,
+        0.01700152305420488,
+        0.017404204001650214
+      ],
+      "gpu_median": 0.01700152305420488,
+      "max_abs_difference": 2.1316282072803006e-14,
+      "numerically_equal": true,
+      "cpu_over_gpu": 3.459921843289831,
+      "common_pca_max_abs_difference": 3.552713678800501e-15,
+      "cpu_gpu_kmeans_ARI": 1.0
+    },
+    {
+      "case": "1CFD_ionic-ass",
+      "kind": "protein",
+      "descriptor_set": "radial",
+      "points": 2048,
+      "total_contact_points": 36842,
+      "features": 24,
+      "radius_angstrom": 10,
+      "orders": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "structural": true,
+      "compositional": true,
+      "batch_size": 256,
+      "contact_and_setup_seconds": 0.6954570020316169,
+      "cpu_seconds": [
+        0.07036291598342359,
+        0.07050059700850397,
+        0.07039264595368877
+      ],
+      "cpu_median": 0.07039264595368877,
+      "warnings": [],
+      "metadata": {
+        "source_state": "apo (calcium-free source)",
+        "pdb_accession": "1CFD",
+        "input_name": "1CFD_protein.pdb",
+        "atoms": 1166,
+        "pbc": [
+          false,
+          false,
+          false
+        ],
+        "contact_mode": "ionic-ass",
+        "contact_parameters": {
+          "cutoff": 7,
+          "alpha": 0.8,
+          "spread": 0.5,
+          "threshold": 0.7,
+          "threshold_is_absolute": true
+        },
+        "points_before_main_region": 37000,
+        "regions_before_main_region": 106,
+        "points_after_main_region": 36842,
+        "contact_seconds": 0.6871553690289147,
+        "coordinates": "Original PDB coordinates; no periodic wrapping"
+      },
+      "gpu_status": "verified",
+      "actual_gpu_backend": "gpu",
+      "gpu_seconds": [
+        0.014119828992988914,
+        0.014128481037914753,
+        0.014810686989221722
+      ],
+      "gpu_median": 0.014128481037914753,
+      "max_abs_difference": 4.263256414560601e-14,
+      "numerically_equal": true,
+      "cpu_over_gpu": 4.98232228678973,
+      "common_pca_max_abs_difference": 3.552713678800501e-15,
+      "cpu_gpu_kmeans_ARI": 1.0
+    },
+    {
+      "case": "111_surface",
+      "kind": "surface",
+      "descriptor_set": "radial",
+      "points": 2048,
+      "total_contact_points": 3240,
+      "features": 10,
+      "radius_angstrom": 4.5,
+      "orders": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "structural": true,
+      "compositional": false,
+      "batch_size": 256,
+      "contact_and_setup_seconds": 0.08656050899298862,
+      "cpu_seconds": [
+        0.007847512024454772,
+        0.007809611037373543,
+        0.007808907947037369
+      ],
+      "cpu_median": 0.007809611037373543,
+      "warnings": [],
+      "metadata": {
+        "atoms": 48,
+        "reference": "surface",
+        "radius": 4.5
+      },
+      "gpu_status": "verified",
+      "actual_gpu_backend": "gpu",
+      "gpu_seconds": [
+        0.01396777096670121,
+        0.013226677023340017,
+        0.013241640001069754
+      ],
+      "gpu_median": 0.013241640001069754,
+      "max_abs_difference": 6.661338147750939e-16,
+      "numerically_equal": true,
+      "cpu_over_gpu": 0.5897767222747806,
+      "common_pca_max_abs_difference": 8.548717289613705e-15,
+      "cpu_gpu_kmeans_ARI": 1.0
+    },
+    {
+      "case": "defects_surface",
+      "kind": "surface",
+      "descriptor_set": "radial",
+      "points": 2048,
+      "total_contact_points": 81000,
+      "features": 20,
+      "radius_angstrom": 6.5,
+      "orders": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "structural": true,
+      "compositional": true,
+      "batch_size": 256,
+      "contact_and_setup_seconds": 5.4122341950424016,
+      "cpu_seconds": [
+        0.2275283859926276,
+        0.2327267550281249,
+        0.22740076499758288
+      ],
+      "cpu_median": 0.2275283859926276,
+      "warnings": [],
+      "metadata": {
+        "atoms": 2021,
+        "reference": "surface",
+        "radius": 6.5
+      },
+      "gpu_status": "verified",
+      "actual_gpu_backend": "gpu",
+      "gpu_seconds": [
+        0.13696742296451703,
+        0.09761507296934724,
+        0.09753588697640225
+      ],
+      "gpu_median": 0.09761507296934724,
+      "max_abs_difference": 1.7763568394002505e-15,
+      "numerically_equal": true,
+      "cpu_over_gpu": 2.3308734918845504,
+      "common_pca_max_abs_difference": 3.552713678800501e-15,
+      "cpu_gpu_kmeans_ARI": 1.0
+    }
+  ]
+}

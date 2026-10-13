@@ -1,0 +1,12 @@
+audit/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+examples/results/
+
+# Local package builds and virtual environments
+build/
+dist/
+*.egg-info/
+.venv/
+.pytest_cache/

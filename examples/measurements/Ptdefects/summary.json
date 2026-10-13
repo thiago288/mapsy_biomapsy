@@ -1,0 +1,138 @@
+{
+  "title": "Pt(111) with vacancies and O",
+  "points": 81000,
+  "features": [
+    "ACSF_RS_r6.5_000",
+    "ACSF_RS_r6.5_001",
+    "ACSF_RS_r6.5_002",
+    "ACSF_RS_r6.5_003",
+    "ACSF_RS_r6.5_004",
+    "ACSF_RS_r6.5_005",
+    "ACSF_RS_r6.5_006",
+    "ACSF_RS_r6.5_007",
+    "ACSF_RS_r6.5_008",
+    "ACSF_RS_r6.5_009",
+    "ACSF_RC_r6.5_000",
+    "ACSF_RC_r6.5_001",
+    "ACSF_RC_r6.5_002",
+    "ACSF_RC_r6.5_003",
+    "ACSF_RC_r6.5_004",
+    "ACSF_RC_r6.5_005",
+    "ACSF_RC_r6.5_006",
+    "ACSF_RC_r6.5_007",
+    "ACSF_RC_r6.5_008",
+    "ACSF_RC_r6.5_009",
+    "ACSF_AS_r6.5_000",
+    "ACSF_AS_r6.5_001",
+    "ACSF_AS_r6.5_002",
+    "ACSF_AS_r6.5_003",
+    "ACSF_AS_r6.5_004",
+    "ACSF_AS_r6.5_005",
+    "ACSF_AS_r6.5_006",
+    "ACSF_AS_r6.5_007",
+    "ACSF_AS_r6.5_008",
+    "ACSF_AS_r6.5_009",
+    "ACSF_AC_r6.5_000",
+    "ACSF_AC_r6.5_001",
+    "ACSF_AC_r6.5_002",
+    "ACSF_AC_r6.5_003",
+    "ACSF_AC_r6.5_004",
+    "ACSF_AC_r6.5_005",
+    "ACSF_AC_r6.5_006",
+    "ACSF_AC_r6.5_007",
+    "ACSF_AC_r6.5_008",
+    "ACSF_AC_r6.5_009"
+  ],
+  "clustering_method": "kmeans",
+  "clustering_space": "standardized",
+  "pca_space": "standardized",
+  "cluster_choices": {
+    "best_silhouette": {
+      "nclusters": 2,
+      "random_state": 42,
+      "median_silhouette": 0.7440542954258322,
+      "median_db": 0.9443491908734656,
+      "silhouette_this_seed": 0.7434624680509253,
+      "db_this_seed": 0.9444527627761548,
+      "cluster_sizes": [
+        74303,
+        6697
+      ]
+    },
+    "best_davies_bouldin": {
+      "nclusters": 2,
+      "random_state": 42,
+      "median_silhouette": 0.7440542954258322,
+      "median_db": 0.9443491908734656,
+      "silhouette_this_seed": 0.7434624680509253,
+      "db_this_seed": 0.9444527627761548,
+      "cluster_sizes": [
+        74303,
+        6697
+      ]
+    }
+  },
+  "selection_rule": "Maximum median silhouette / minimum median DB across seeds; representative plotted seed is the first seed",
+  "screening_ks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "screening_seeds": [
+    42,
+    371
+  ],
+  "silhouette_points": 2000,
+  "silhouette_sampling": "2000 uniformly selected rows, seed 42",
+  "db_points": 81000,
+  "pca_pair_display_points": 12000,
+  "protein_projected_front_points": null,
+  "physical_validation": "Cluster counts and assignments require validation for the intended scientific application",
+  "face": "defects",
+  "atoms": 2021,
+  "pbc": [
+    true,
+    true,
+    true
+  ],
+  "grid_cutoff_ry": 80,
+  "radius_angstrom": 6.5,
+  "reference": "surface",
+  "requested_clearance_angstrom": 1.5,
+  "top_atom_z": 20.8990402424285,
+  "actual_probe_z": [
+    22.369887186366906,
+    22.369887186366906
+  ],
+  "descriptor_seconds": 26.877638410020154,
+  "backend": "cpu",
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Linux-7.0.0-30-generic-x86_64-with-glibc2.39",
+    "versions": {
+      "numpy": "2.4.3",
+      "scipy": "1.17.1",
+      "pandas": "2.3.3",
+      "ase": "3.27.0",
+      "scikit-learn": "1.8.0",
+      "pydantic": "2.13.4",
+      "matplotlib": "3.10.8",
+      "cupy-cuda12x": "14.0.1"
+    },
+    "thread_environment": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    }
+  }
+}

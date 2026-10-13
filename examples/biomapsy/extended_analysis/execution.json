@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "seconds": 840.7606747150421,
+  "public_notebook": "/home/thiago/mapsy_sandbox/mapsy_opt_fixed/examples/biomapsy/extended_analysis/02_extended_calmodulin.ipynb",
+  "audit": "/home/thiago/mapsy_sandbox/mapsy_opt_fixed/audit/extended_verification_20261011_142923",
+  "executed_code_cells": 53,
+  "total_code_cells": 53,
+  "empty_code_cells": 3,
+  "error_outputs": 0,
+  "workers": 4,
+  "blas_threads": 1,
+  "executable_code_cells": 53,
+  "executed_executable_code_cells": 53
+}

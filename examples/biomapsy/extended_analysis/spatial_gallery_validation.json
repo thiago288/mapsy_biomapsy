@@ -1,0 +1,8 @@
+{
+  "channels": 54,
+  "pca_basis": "Pooled 1CFD/1CLL standardized 54-channel matrix",
+  "ac_panels_per_protein": 13,
+  "ac_channels_plotted": 52,
+  "colors": "Shared pooled 2\u201398% limits, opposite views, display subset maximum 12000 with seed42",
+  "pca_90_percent_components": 8
+}

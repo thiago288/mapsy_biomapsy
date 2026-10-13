@@ -1,0 +1,57 @@
+{
+  "near_cutoff_pairs": 64,
+  "affected_query_points": 48,
+  "distances_A": [
+    4.497852771348471,
+    4.497852771348474
+  ],
+  "fc_range": [
+    5.617864140550211e-07,
+    5.617864140550211e-07
+  ],
+  "observed_max_abs": 1.8423605555262235e-05,
+  "predicted_max_abs": 1.8423605554680018e-05,
+  "max_unexplained_abs": 1.4016565685892601e-15,
+  "cutoff_difference_explains_delta": true,
+  "baseline_radial_rule": "fc > 1e-6",
+  "vectorized_radial_rule": "all positive supported fc contributions; no 1e-6 discard",
+  "note": "The 1e-8 in_cut mask belongs to angular code; it is not the radial batch criterion.",
+  "clustering_effect_controls": [
+    {
+      "method": "standardized_kmeans",
+      "k": 2,
+      "seed": 42,
+      "ARI": 1.0
+    },
+    {
+      "method": "raw_spectral",
+      "k": 2,
+      "seed": 42,
+      "ARI": 1.0
+    },
+    {
+      "method": "standardized_kmeans",
+      "k": 4,
+      "seed": 42,
+      "ARI": 1.0
+    },
+    {
+      "method": "raw_spectral",
+      "k": 4,
+      "seed": 42,
+      "ARI": 1.0
+    },
+    {
+      "method": "standardized_kmeans",
+      "k": 10,
+      "seed": 42,
+      "ARI": 1.0
+    },
+    {
+      "method": "raw_spectral",
+      "k": 10,
+      "seed": 42,
+      "ARI": 1.0
+    }
+  ]
+}

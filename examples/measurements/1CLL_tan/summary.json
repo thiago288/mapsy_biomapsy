@@ -1,0 +1,169 @@
+{
+  "source_state": "holo-derived (calcium-bound source; ions omitted)",
+  "pdb_accession": "1CLL",
+  "input_name": "1CLL_protein.pdb",
+  "atoms": 1133,
+  "pbc": [
+    false,
+    false,
+    false
+  ],
+  "contact_mode": "tan",
+  "contact_parameters": {
+    "grid_resolution": 0.8,
+    "padding": 10,
+    "distance": 3.5,
+    "spread": 0.5,
+    "threshold": 0.05,
+    "threshold_is_absolute": false
+  },
+  "points_before_main_region": 52601,
+  "regions_before_main_region": 68,
+  "points_after_main_region": 52517,
+  "contact_seconds": 0.6590924910269678,
+  "coordinates": "Original PDB coordinates; no periodic wrapping",
+  "physicochemical_fields": {
+    "atom_records": 1133,
+    "alignment": "Exact PDB record order and coordinates checked against ASE, model 0",
+    "generic_backbone_atoms": 576,
+    "unknown_charge_atoms": 0,
+    "unknown_charge_keys": [],
+    "unknown_hydrophobic_residues": [],
+    "total_lookup_charge": -133.81629999999998,
+    "charge_model": "Original notebook partial lookup; heavy atoms only; not a complete ff14SB assignment",
+    "electrostatic_cutoff_angstrom": 8.0,
+    "hydrophobicity_cutoff_angstrom": 5.0,
+    "distance_floor_angstrom": 0.1,
+    "electrostatic_units": "lookup charge / Angstrom",
+    "hydrophobicity_units": "Kyte-Doolittle scale",
+    "electrostatic_std": 0.3302110953793748,
+    "hydrophobicity_std": 2.351905907482226
+  },
+  "physicochemical_seconds": 0.3803903410444036,
+  "physicochemical_backend": "numpy_cpu",
+  "title": "1CLL \u2014 holo-derived (calcium-bound source; ions omitted) \u2014 tan",
+  "points": 52517,
+  "features": [
+    "ACSF_RS_r10.0_000",
+    "ACSF_RS_r10.0_001",
+    "ACSF_RS_r10.0_002",
+    "ACSF_RS_r10.0_003",
+    "ACSF_RS_r10.0_004",
+    "ACSF_RS_r10.0_005",
+    "ACSF_RS_r10.0_006",
+    "ACSF_RS_r10.0_007",
+    "ACSF_RS_r10.0_008",
+    "ACSF_RS_r10.0_009",
+    "ACSF_RS_r10.0_010",
+    "ACSF_RS_r10.0_011",
+    "ACSF_RC_r10.0_000",
+    "ACSF_RC_r10.0_001",
+    "ACSF_RC_r10.0_002",
+    "ACSF_RC_r10.0_003",
+    "ACSF_RC_r10.0_004",
+    "ACSF_RC_r10.0_005",
+    "ACSF_RC_r10.0_006",
+    "ACSF_RC_r10.0_007",
+    "ACSF_RC_r10.0_008",
+    "ACSF_RC_r10.0_009",
+    "ACSF_RC_r10.0_010",
+    "ACSF_RC_r10.0_011",
+    "electrostatic",
+    "hydrophobicity"
+  ],
+  "clustering_method": "kmeans",
+  "clustering_space": "standardized",
+  "pca_space": "standardized",
+  "cluster_choices": {
+    "best_silhouette": {
+      "nclusters": 2,
+      "random_state": 42,
+      "median_silhouette": 0.29466080763891583,
+      "median_db": 1.8679987086788068,
+      "silhouette_this_seed": 0.29466080763891583,
+      "db_this_seed": 1.8679925314215267,
+      "cluster_sizes": [
+        14107,
+        38410
+      ]
+    },
+    "best_davies_bouldin": {
+      "nclusters": 4,
+      "random_state": 42,
+      "median_silhouette": 0.23520489593624416,
+      "median_db": 1.5627100263617328,
+      "silhouette_this_seed": 0.23535189736569997,
+      "db_this_seed": 1.562130525189483,
+      "cluster_sizes": [
+        6954,
+        27801,
+        6685,
+        11077
+      ]
+    }
+  },
+  "selection_rule": "Maximum median silhouette / minimum median DB across seeds; representative plotted seed is the first seed",
+  "screening_ks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "screening_seeds": [
+    42,
+    371
+  ],
+  "silhouette_points": 2000,
+  "silhouette_sampling": "2000 uniformly selected rows, seed 42",
+  "db_points": 52517,
+  "pca_pair_display_points": 12000,
+  "protein_projected_front_points": 3512,
+  "physical_validation": "Cluster counts and assignments require validation for the intended scientific application",
+  "radius_angstrom": 10,
+  "orders": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "descriptor_set": "radial",
+  "descriptor_seconds": 1.130288017098792,
+  "ac_descriptor_seconds": 0.7498976760543883,
+  "backend": "cpu",
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Linux-7.0.0-30-generic-x86_64-with-glibc2.39",
+    "versions": {
+      "numpy": "2.4.3",
+      "scipy": "1.17.1",
+      "pandas": "2.3.3",
+      "ase": "3.27.0",
+      "scikit-learn": "1.8.0",
+      "pydantic": "2.13.4",
+      "matplotlib": "3.10.8",
+      "cupy-cuda12x": "14.0.1"
+    },
+    "thread_environment": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    }
+  }
+}

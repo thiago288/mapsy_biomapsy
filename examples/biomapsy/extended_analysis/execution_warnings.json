@@ -1,0 +1,169 @@
+{
+  "warning_lines": [
+    {
+      "cell": 34,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism."
+    },
+    {
+      "cell": 54,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 54,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 54,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 54,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 54,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 54,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 54,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 54,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 57,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/sklearn/preprocessing/_discretization.py:304: FutureWarning: The current default behavior, quantile_method='linear', will be changed to quantile_method='averaged_inverted_cdf' in sci"
+    },
+    {
+      "cell": 60,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism."
+    },
+    {
+      "cell": 61,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism."
+    },
+    {
+      "cell": 62,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism."
+    },
+    {
+      "cell": 62,
+      "message": "/home/thiago/venvs/mapsy_opt/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism."
+    }
+  ],
+  "execution_errors": 0
+}

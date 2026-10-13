@@ -1,0 +1,18 @@
+{
+  "fresh_descriptor_points": 256,
+  "fresh_descriptor_max_abs": 8.171241461241152e-14,
+  "fresh_descriptor_allclose": true,
+  "exact_site_counts": {
+    "bridge": 739,
+    "hcp": 252,
+    "fcc": 252,
+    "atop": 232
+  },
+  "within_site_max_standardized_distance": {
+    "atop": 1.203445469879841e-13,
+    "bridge": 7.288790938102239e-14,
+    "fcc": 7.072081758024189e-14,
+    "hcp": 6.595159053429813e-14
+  },
+  "scope": "Exact high-symmetry terrace coordinates, beyond all O and vacancy cutoff spheres; no nearest-grid approximation"
+}

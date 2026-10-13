@@ -1,0 +1,10 @@
+{
+  "aperiodic_apo": true,
+  "aperiodic_holo": true,
+  "ac_channels_apo": 52,
+  "ac_channels_holo": 52,
+  "points_apo": 37450,
+  "points_holo": 35087,
+  "apo_finite": true,
+  "holo_finite": true
+}
