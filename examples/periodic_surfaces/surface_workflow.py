@@ -314,7 +314,7 @@ def save_analysis(m, atoms, out, face, ntries=1):
             zorder=6,
             label='Representative MapSy site')
         ax.legend(loc='upper left', bbox_to_anchor=(1.12, 1), fontsize=8)
-        ax.set_title(f'Pt({face}) — {name.replace('_', ' ')}, k={k}')
+        ax.set_title(f"Pt({face}) — {name.replace('_', ' ')}, k={k}")
         fig.colorbar(sc, ax=ax, ticks=range(k), label='Cluster (arbitrary label)')
         save(fig, 'clusters_xy_' + name)
         np.savetxt(out / ('cluster_edges_' + name + '.csv'),
@@ -340,7 +340,7 @@ def save_analysis(m, atoms, out, face, ntries=1):
                 alpha=0.5,
                 rasterized=True)
             ax.set(xlabel=f'PC{i + 1}', ylabel=f'PC{j + 1}')
-        fig.suptitle(f'Pt({face}) — {name.replace('_', ' ')}, k={k}')
+        fig.suptitle(f"Pt({face}) — {name.replace('_', ' ')}, k={k}")
         save(fig, 'pca_pairwise_clusters_' + name)
         if name == 'original':
             fig, ax = plt.subplots(figsize=(8, 6), layout='constrained')

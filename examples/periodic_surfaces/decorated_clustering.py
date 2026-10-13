@@ -199,8 +199,7 @@ def save_decorated_clustering(data, atoms, output, ntries=1):
             ylim=(0,
                 atoms.cell[1,
                     1]),
-            title=f'Pt(111) decorated — {name.replace('_',
-                    ' ')}, k={k}')
+            title=f"Pt(111) decorated — {name.replace('_', ' ')}, k={k}")
         ax.legend(loc='upper center', bbox_to_anchor=(0.5, 1.13), ncol=2)
         fig.colorbar(sc, ax=ax, ticks=range(k), label='Cluster label', shrink=0.75)
         save(fig, 'clusters_xy_' + name)
@@ -257,7 +256,7 @@ def save_decorated_clustering(data, atoms, output, ntries=1):
                 alpha=0.2,
                 rasterized=True)
             ax.set(xlabel=f'PC{i + 1}', ylabel=f'PC{j + 1}')
-        fig.suptitle(f'Decorated Pt(111): {name.replace('_', ' ')}, k={k}')
+        fig.suptitle(f"Decorated Pt(111): {name.replace('_', ' ')}, k={k}")
         save(fig, 'pca_pairwise_clusters_' + name)
     data['Cluster'] = data.Cluster_best_davies_bouldin
     data.to_csv(out / 'descriptors_with_clusters.csv', index=False)
